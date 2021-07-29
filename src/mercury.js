@@ -1,6 +1,6 @@
 export default class Mercury {
   constructor(age) {
-    this.earthAge =
-    this.mercuryAge =
+    this.earthAge = age;
+    this.mercuryAge = age/.24
   }
 }

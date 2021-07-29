@@ -1,4 +1,4 @@
-const { isPlainObject } = require("jquery");
+import Mercury from "../src/mercury"
 
 
 

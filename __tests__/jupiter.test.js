@@ -5,10 +5,10 @@ describe('Jupiter', () => {
   let jupiter;
 
   beforeEach(() => {
-    jupiter = new Jupiter();
+    jupiter = new Jupiter(21);
   });
 
-  test('should correctly calculate users age to their jupiter age', => {
-
+  test('should correctly calculate users age to their jupiter age', () => {
+    expect(jupiter.jupiterAge).toEqual(249);
   });
 })

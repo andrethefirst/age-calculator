@@ -12,4 +12,8 @@ describe('Life Expectancy', () => {
   test('should properly calculate expected life expectancy based on demographic', () => {
     expect(lifeExpectancy.avgLifeExpect).toEqual(64);
   });
+
+  test('should propercly calculate the users remaining life', () => {
+    
+  });
 })

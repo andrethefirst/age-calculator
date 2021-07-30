@@ -6,10 +6,10 @@ describe('Life Expectancy', () => {
   let lifeExpectancy;
 
   beforeEach(() => {
-    lifeExpectancy = new LifeExpectancy;
+    lifeExpectancy = new LifeExpectancy('male', true, true);
   });
 
-  test('should properly calculate expected remaining life', () => {
-
+  test('should properly calculate expected life expectancy based on demographic', () => {
+    expect(lifeExpectancy.avgLifeExpect).toEqual(64);
   });
 })

@@ -3,4 +3,7 @@ export default class Mars {
     this.earthAge = age;
     this.marsAge = parseFloat((age*1.88).toFixed());
   }
+  lifeLeftonMars(lifeLeft) {
+    this.marsLifeLeft = 
+  }
 }

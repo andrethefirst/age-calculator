@@ -1,5 +1,5 @@
 export default class LifeExpectancy {
-  constructor(gender, alcConsum, smoker) {
+  constructor(gender, age, alcConsum, smoker) {
     let avgLifeSpan = 79;
     if(gender === 'male') {
       avgLifeSpan -= 3;
@@ -13,5 +13,6 @@ export default class LifeExpectancy {
       avgLifeSpan -= 10;
     }
     this.avgLifeExpect = avgLifeSpan;
+   // this.remainingLife = (avgLifeExpect - age);
   }
 }

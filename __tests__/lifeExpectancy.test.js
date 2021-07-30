@@ -14,6 +14,6 @@ describe('Life Expectancy', () => {
   });
 
   test('should propercly calculate the users remaining life', () => {
-    
+    expect(lifeExpectancy.remainingLife).toEqual(43);
   });
 })

@@ -11,4 +11,8 @@ describe('Mars', () => {
   test('should correctly calculate users age to their mars age', () => {
     expect(mars.marsAge).toEqual(39);
   });
+
+  test('should correctly calculate the users life left on mars', () => {
+    
+  })
 })

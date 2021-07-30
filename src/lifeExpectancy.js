@@ -13,6 +13,6 @@ export default class LifeExpectancy {
       avgLifeSpan -= 10;
     }
     this.avgLifeExpect = avgLifeSpan;
-   // this.remainingLife = (avgLifeExpect - age);
+    this.remainingLife = ( - );
   }
 }

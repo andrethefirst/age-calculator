@@ -13,7 +13,7 @@ describe('Life Expectancy', () => {
     expect(lifeExpectancy.avgLifeExpect).toEqual(64);
   });
 
-  //test('should propercly calculate the users remaining life', () => {
+  test('should propercly calculate the users remaining life', () => {
     
-  //});
+  });
 })

@@ -9,6 +9,6 @@ describe('Jupiter', () => {
   });
 
   test('should correctly calculate users age to their jupiter age', () => {
-    expect(jupiter.jupiterAge).toEqual(249);
+    expect(jupiter.jupiterAge).toEqual(2);
   });
 })

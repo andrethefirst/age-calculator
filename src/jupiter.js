@@ -4,7 +4,7 @@ export default class Jupiter {
     this.jupiterAge = parseFloat((age/11.86).toFixed());
   }
   lifeLeftonJupiter(lifeLeft) {
-    this.jupiterLifeLeft =
+    this.jupiterLifeLeft = parseFloat((lifeLeft/11.86).toFixed());
   }
 
 }

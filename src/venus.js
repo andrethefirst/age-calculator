@@ -4,6 +4,6 @@ export default class Venus {
     this.venusAge = parseFloat((age/.62).toFixed());
   }
   lifeLeftonVenus(lifeLeft) {
-    this.venusLifeLeft =
+    this.venusLifeLeft = parseFloat((lifeLeft/.62).toFixed());
   }
 }

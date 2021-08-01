@@ -4,6 +4,6 @@ export default class Mars {
     this.marsAge = parseFloat((age/1.88).toFixed());
   }
   lifeLeftonMars(lifeLeft) {
-    this.marsLifeLeft = parseFloat((lifeLeft/1.88)).toFixed();
+    this.marsLifeLeft = parseFloat((lifeLeft/1.88).toFixed());
   };
 }

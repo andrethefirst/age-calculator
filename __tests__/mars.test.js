@@ -17,6 +17,6 @@ describe('Mars', () => {
     let lifeExpectancy = new LifeExpectancy('male', 21, true, true);
     let marstwo = new Mars(21);
     marstwo.lifeLeftonMars(lifeExpectancy.remainingLife);
-    expect(marstwo.marsLifeLeft).toEqual("23");
+    expect(marstwo.marsLifeLeft).toEqual(23);
   })
 })

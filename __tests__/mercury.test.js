@@ -13,4 +13,8 @@ describe('Mercury', () => {
   test('should correctly calculate users earth age to their mercury age', () => {
     expect(mercury.mercuryAge).toEqual(88)
   })
+
+  test('should correctly calculate users remaining life on mercury', () => {
+    
+  })
 })

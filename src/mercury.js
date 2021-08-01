@@ -3,7 +3,7 @@ export default class Mercury {
     this.earthAge = age;
     this.mercuryAge = parseFloat((age/.24).toFixed())
   }
-  lifeLeftonMercury() {
-    this.mercuryLifeLeft =
+  lifeLeftonMercury(lifeLeft) {
+    this.mercuryLifeLeft = parseFloat((lifeLeft/.24).toFixed());
   }
 }

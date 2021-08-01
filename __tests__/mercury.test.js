@@ -1,3 +1,4 @@
+import LifeExpectancy from "../src/lifeExpectancy";
 import Mercury from "../src/mercury"
 
 
@@ -15,6 +16,9 @@ describe('Mercury', () => {
   })
 
   test('should correctly calculate users remaining life on mercury', () => {
-    
+    let lifeExpectancy = new LifeExpectancy('male', 21, true, true);
+    let mercuryTwo = new Mercury(21);
+    mercuryTwo.lifeLeftonMercury(lifeExpectancy.remainingLife);
+    expect(mercuryTwo.mercuryLifeLeft).toEqual(179);
   })
 })

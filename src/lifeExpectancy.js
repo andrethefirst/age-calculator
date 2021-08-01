@@ -15,4 +15,11 @@ export default class LifeExpectancy {
     this.avgLifeExpect = avgLifeSpan;
     this.remainingLife = (avgLifeSpan - age);
   }
+  ifPastExpected() {
+    if (this.remainingLife <0){
+      this.lifePast = Math.abs(this.remainingLife);
+    } else {
+      this.lifePast = 0;
+    }
+  }
 }

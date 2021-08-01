@@ -10,5 +10,9 @@ describe('Venus', () => {
 
   test('should correctly calculate users age to their venus age', () => {
     expect(venus.venusAge).toEqual(34)
+  });
+
+  test('should correctly calculate users remaining age on venus', () => {
+
   })
 })

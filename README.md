@@ -1,8 +1,11 @@
-# project-template
+# Independent-project-5
 
-#### This is a template for setting up testing environment for different projects.
+## Link to webpage ##
+https://github.com/andrethefirst/age-calculator
 
-#### By Andre Velasquez
+#### _This is a functioning js to convert users age to theirs on another planet!_
+
+#### By _**Andre Velasquez**_
 
 ## Technologies Used
 
@@ -13,21 +16,35 @@
 * Popper
 * Bootstrap
 * Jest
+* JS
 
 ## Description
 
-_This is a template repository for starting a new project for with testing environment._
+_This is a functioning js that converts users inputted age to their age on Mercury, Venus, Jupiter, and Mars. It also shows how much life you have left on each planet!_
 
 ## Setup/Installation Requirements
 
-* Go to the template repository using this link: https://github.com/andrethefirst/templaterepo
-* CLick on green button that says "Use this template"
-* Create a new repository as you regularly would
+* Go into https://github.com/andrethefirst/age-calculator
+* CLick code and copy the link
+* Open GitBash on desktop
+* Type in git init
+* Type git clone and paste the link right after.
 
 ## Known Bugs
 
-* No known bugs
+* _No known bugs_
 
 ## License
 
+*GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+_{If you run into any problems, have any questions, or any ideas, contact me!}_
+
 ## Contact Information
+
+_{email: andrethefirst21@gmail.com}_

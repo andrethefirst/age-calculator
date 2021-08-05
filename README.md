@@ -29,6 +29,10 @@ _This is a functioning js that converts users inputted age to their age on Mercu
 * Open GitBash on desktop
 * Type in git init
 * Type git clone and paste the link right after.
+* Type in npm install to install all needed files.
+* Type in npm run build to build out the project.
+* Type in npm run test to show testing.
+* Type in npm run start to build out the project and display it.
 
 ## Known Bugs
 

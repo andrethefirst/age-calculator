@@ -13,6 +13,11 @@ describe('Life Expectancy', () => {
     expect(lifeExpectancy.avgLifeExpect).toEqual(64);
   });
 
+  test('should properly test female on expectation', () => {
+    let lifeExpectancy = new LifeExpectancy('female', 21, true, true);
+    expect(lifeExpectancy.avgLifeExpect).toEqual(69);
+  });
+
   test('should propercly calculate the users remaining life', () => {
     expect(lifeExpectancy.remainingLife).toEqual(43);
   });

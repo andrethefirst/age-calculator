@@ -25,5 +25,10 @@ describe('Life Expectancy', () => {
     let lifeExpectancy = new LifeExpectancy('male', 80, false, false);
     lifeExpectancy.ifPastExpected();
     expect(lifeExpectancy.lifePast).toEqual(4);
-  })
+  });
+  test('should properly calculate that the person is not past the year life expectancy', () => {
+    let lifeExpectancy = new LifeExpectancy('male', 45, false, false);
+    lifeExpectancy.ifPastExpected();
+    expect(lifeExpectancy.lifePast).toEqual(0);
+  });
 })
